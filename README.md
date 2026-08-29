@@ -1,8 +1,9 @@
-# 🧱 Template Android — Ktor · Hilt · KSP · Room
+# 🧱 Template Android — Ktor · Hilt · Ksp · Room
 
 > **Un point de départ prêt à l'emploi pour mes apps Android.**
 
-Template personnel préconfigué avec les briques essentielles d'une application Android moderne. L'objectif : ne plus repartir de zéro à chaque nouveau projet.
+Template personnel préconfigué avec les briques essentielles d'une application Android moderne. 
+L'objectif : ne plus repartir de zéro à chaque nouveau projet.
 
 ---
 
@@ -11,7 +12,7 @@ Template personnel préconfigué avec les briques essentielles d'une application
 Quand je démarre une nouvelle app, je veux pouvoir me concentrer sur les **fonctionnalités métier** — pas sur la configuration de Hilt, Room ou Ktor pour la énième fois. Ce template me fournit une base solide et testée avec :
 
 - ✅ **Injection de dépendances** déjà câblée (Hilt)
-- ✅ **Base de données locale** prête à l'emploi (Room + KSP)
+- ✅ **Base de données locale** prête à l'emploi (Room3 + Ksp)
 - ✅ **Client réseau** configuré (Ktor)
 - ✅ **Architecture Clean** en place (Repository pattern, séparation des couches)
 
@@ -19,15 +20,17 @@ Quand je démarre une nouvelle app, je veux pouvoir me concentrer sur les **fonc
 
 ## 🏗️ Stack technique
 
-| Brique | Rôle |
-|---|---|
-| **Kotlin** | Langage principal |
-| **Jetpack Compose** | UI déclarative |
-| **Hilt** | Injection de dépendances |
-| **Room** | Base de données locale (SQLite) |
-| **KSP** | Processeur d'annotations (remplace kapt) |
-| **Ktor Client** | Appels réseau / API REST |
+| Brique                 | Rôle |
+|------------------------|---|
+| **Kotlin**             | Langage principal |
+| **Jetpack Compose**    | UI déclarative |
+| **Hilt**               | Injection de dépendances |
+| **Room**               | Base de données locale (SQLite) |
+| **KSP**                | Processeur d'annotations (remplace kapt) |
+| **Ktor Client**        | Appels réseau / API REST |
 | **Clean Architecture** | Séparation data / domain / presentation |
+| **Audio3**             | gestion des mp3 |
+
 
 ---
 
@@ -67,7 +70,7 @@ app/
 
 ## 📝 Notes
 
-- Créé en **janvier 2026**
+- Dernière modification  **août 2026**
 - Pensé pour mes projets personnels mais libre d'utilisation
 - Les versions des dépendances sont celles qui fonctionnent ensemble — vérifier les mises à jour avant de les bumper
 
@@ -75,5 +78,5 @@ app/
 
 ## 👩‍💻 Auteure
 
-**Jacqueline** — [@nouvenli](https://github.com/nouvenli)  
-Développeuse Android en formation · Ex-formatrice pendant 30 ans · Kotlin & Compose enthusiast
+**Jacqueline** — [@jacquelineRaynaud](https://github.com/jacqueline-raynaud)  
+Développeuse Android · Formatrice 30 ans d'expérience · Kotlin & Compose enthusiast
